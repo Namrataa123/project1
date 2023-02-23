@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FacebookRegressionSuite]" guice-stage="DEVELOPMENT">
+  <parameter name="browsername" value="chrome"/>
+  <test thread-count="5" name="TC001_UserLoginTest(failed)">
+    <classes>
+      <class name="com.Facebook.Testcases.TC001_UserLoginTest">
+        <methods>
+          <include name="loginTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.Facebook.Testcases.TC001_UserLoginTest -->
+    </classes>
+  </test> <!-- TC001_UserLoginTest(failed) -->
+</suite> <!-- Failed suite [FacebookRegressionSuite] -->

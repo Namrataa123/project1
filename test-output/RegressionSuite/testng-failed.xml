@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RegressionSuite]" guice-stage="DEVELOPMENT">
+  <parameter name="browsername" value="chrome"/>
+  <test thread-count="5" name="Test1(failed)">
+    <classes>
+      <class name="com.Facebook.Testcases.Bank_testcase3">
+        <methods>
+          <include name="banktestcase3"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.Facebook.Testcases.Bank_testcase3 -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->
